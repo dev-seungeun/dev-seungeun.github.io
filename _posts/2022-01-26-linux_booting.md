@@ -1,7 +1,7 @@
 ---
 title: 리눅스 부팅 설정
 author: SeungEun Baek
-date: 2022-01-26
+date: 2022-01-26 17:05:27 +0900
 category: Study
 layout: post
 ---
