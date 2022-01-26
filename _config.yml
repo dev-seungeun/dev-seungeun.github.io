@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            SeungEun 
+longtitle:        SeungEun Git Blog
+author:           SeungEun Baek
+email:            dev-seungeun@gmail.com
 description: >
   Build Jekyll site with the GitBook style.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://dev-seungeun.github.io'
+baseurl:          ''
 rss:              RSS
 
 toc:
