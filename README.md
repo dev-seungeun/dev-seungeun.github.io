@@ -2,7 +2,7 @@
 
 Make Jelly site have a GitBook look!
 
-## Demooo
+## Demo
 
 Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
 
