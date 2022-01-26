@@ -16,7 +16,7 @@
                 <div class="search-noresults">
                     <section class="normal markdown-section">
                         {% if page.date %}
-                            <span style="color:darkgray; font-size:13px">{{ page.date | date: "%Y-%M-%d %H:%i" }}</span>
+                            <span style="color:darkgray; font-size:13px; margin-left: 3px;">{{ page.date | date: "%Y-%M-%d %H:%i" }}</span>
                         {% endif %} 
                         {% if page.title %}
                             <h1 style="margin-top:0" id="{{ page.id }}">{{ page.title | escape }}</h1>
