@@ -18,7 +18,7 @@ layout: post
 리눅스는 부팅이 되면서 Run Level에 맞는 작업을 수행하며, 각 Level의 작업은 아래와 같이 분리된다.<br>
 현재 시스템이 사용중인 기본 Target을 확인하는 명령어 : systemctl get-default
 
-> ex) 서버가 Run Level 5로 부팅 된다면,  rc5.d에 등록된 심볼릭링크에 해당하는 서비스가 자동 실행된다.
+> ex) 서버가 Level5로 부팅 된다면,  rc5.d에 등록된 심볼릭링크에 해당하는 서비스가 자동 실행된다
 
     
 | <center>File</center> | Target Unit<br>(Run Level) | Target Unit<br>(Systemd Target) | 설명 |
