@@ -10,7 +10,7 @@
             {% endif %} 
         </h1>
         {% if page.date %}
-            <span><i class="far fa-clock" aria-hidden="true"></i>{{page.date}}</span>
+            <span><i class="far fa-clock" aria-hidden="true"></i>{{ page.date | date: "%Y-%M-%d" }}</span>
         {% endif %} 
     </div>
     <div class="page-wrapper" tabindex="-1" role="main">
