@@ -9,9 +9,6 @@
                 <a href="." >{{ site.title | escape }}</a>
             {% endif %} 
         </h1>
-        {% if page.date %}
-            <span><i class="far fa-clock" aria-hidden="true"></i>{{ page.date | date: "%Y-%M-%d" }}</span>
-        {% endif %} 
     </div>
     <div class="page-wrapper" tabindex="-1" role="main">
         <div class="page-inner">
@@ -21,6 +18,9 @@
 
                         {% if page.title %}
                             <h1 id="{{ page.id }}">{{ page.title | escape }}</h1>
+                            {% if page.date %}
+                                <span><i class="far fa-clock" aria-hidden="true"></i>{{ page.date | date: "%Y-%M-%d" }}</span>
+                            {% endif %} 
                         {% else %}
                             <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>
                         {% endif %}
