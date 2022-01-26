@@ -2,6 +2,8 @@
     <div class="book-header" role="navigation">
         <!-- Title -->
         <h1>
+            {% if page.date %}
+            page.date
             <i class="fa fa-circle-o-notch fa-spin"></i>
             {% if page.title %}
                 <a href="." >{{ page.title | escape }}</a>
