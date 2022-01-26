@@ -16,6 +16,27 @@
 
             <li class="divider"></li>
 
+            {% assign reversed_study = site.study | reverse %}
+
+            {% for study in reversed_study %}
+                {% if page.url == post.url %}
+                <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{study.url}}">
+                {% else %}
+                <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{study.url}}">
+                {% endif %}
+                    <a href="{{site.baseurl}}{{study.url}}">
+                        {{ study.title | escape }}
+                    </a>
+                    {% if site.toc.enabled %}
+                        {% if page.url == study.url %}
+                            {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max %}
+                        {% endif %}
+                    {% endif %}
+                </li>
+            {% endfor %}
+            
+            <li class="divider"></li>
+
             {% assign reversed_posts = site.posts | reverse %}
 
             {% for post in reversed_posts %}
@@ -36,12 +57,14 @@
             {% endfor %}
 
             <li class="divider"></li>
-
+            
+<!-- 
             <li>
                 <a href="https://github.com/sighingnow/jekyll-gitbook/fork" target="blank" class="gitbook-link">
                     Fork it Now!
                 </a>
             </li>
+             -->
         </ul>
     </nav>
 </div>
