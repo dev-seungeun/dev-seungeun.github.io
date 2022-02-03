@@ -1,5 +1,5 @@
 ---
-title: Eclipse Github 연동
+title: Eclipse Github 연동2
 author: SeungEun Baek
 date: 2022-02-03
 ---
