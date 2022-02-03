@@ -1,7 +1,7 @@
 ---
 title: Eclipse Github 연동2
 author: SeungEun Baek
-date: 2022-02-01 23:00
+date: 2022-02-03 23:14
 ---
 
 ## 1.Github상에서 생성한 Repository 연동 후, Project Commit,Push 하기
