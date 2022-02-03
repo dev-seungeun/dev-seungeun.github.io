@@ -2,8 +2,8 @@
 layout: home
 ---
  
-### Hello I'm SeungEun! 
-### This is My Blog for Study :) 
+## Hello I'm SeungEun! 
+## This is My Blog for Study :) 
  
 <!-- 
 ## Theme : Jekyll 
