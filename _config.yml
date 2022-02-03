@@ -41,9 +41,12 @@ exclude:
   - _drafts
 
 collections:
-  pages:
+  hobby:
     output: true
     permalink: /:collection/:path/
+    book: 
+      output: true
+      permalink: /:collection/:path/
     
 destination:      ./_site
 incremental:      false
