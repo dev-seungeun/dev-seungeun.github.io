@@ -25,7 +25,7 @@ author: SeungEun Baek
 ### 해결방법 - 토큰생성
 
 > 1. Github 홈페이지 > 프로필 클릭 > Setting 메뉴 선택<br> 
-   <p align="left" style="margin-left: 60px"><img src="https://user-images.githubusercontent.com/80504390/152360015-9a0a658f-eab8-4d1e-9393-1e56e5e3153e.png"></p>   
+   <p align="left" style="margin-left: 60px;"><img style="margin-left: 60px;" src="https://user-images.githubusercontent.com/80504390/152360015-9a0a658f-eab8-4d1e-9393-1e56e5e3153e.png"></p>   
    
 > 2. Developer Settings 메뉴 (아래쪽에 위치함)<br>
    <p align="left"><img src="https://user-images.githubusercontent.com/80504390/152360123-52833259-9b76-471b-a391-497c10c90cc0.png"></p>
