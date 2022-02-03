@@ -41,15 +41,15 @@ exclude:
   - _drafts
 
 collections: 
-  astudy:
+  1study:
     title: Study
     output: true
     permalink: /:collection/:path/
-  book: 
+  2book: 
     title: Book
     output: true
     permalink: /:collection/:path/
-  movie:
+  3movie:
     title: Movie
     output: true
     permalink: /:collection/:path/  
