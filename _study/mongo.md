@@ -5,7 +5,7 @@ date: 2022-01-27 20:30
 category: bse
 layout: post
 ---
-   
+      
 ## 관계형 데이터베이스(RDBMS)
 > Table과 Row, Column이 존재하고 Table간의 관계를 연결시켜서 데이터를 조회하는 형태
 ```
