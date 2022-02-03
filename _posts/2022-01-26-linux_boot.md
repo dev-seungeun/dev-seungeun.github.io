@@ -1,9 +1,5 @@
 ---
 title: 리눅스 부팅 설정
-author: SeungEun Baek
-date: 2022-01-26 21:05
-category: Study
-layout: post
 ---
    
 ## Boot Script 등록
