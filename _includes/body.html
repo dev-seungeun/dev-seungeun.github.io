@@ -17,12 +17,11 @@
                     <section class="normal markdown-section">
                         {% if page.date %}
                             <span style="color:darkgray; font-size:13px; margin-left:3px;">{{ page.date | date: "%b %-d, %Y"}}</span>
-                        {% endif %}  
-                        {% if page.layout and page.layout == "home" %}
-                        {% elseif page.title %}
+                        {% endif %}   
+                        {% if page.title %}
                             <h1 style="margin-top:0" id="{{ page.id }}">{{ page.title | escape }}</h1>
                         {% else %}
-<!--                             <h1 id="{{ page.id }}">{{ site.title | escape }}</h1> -->%}
+                            <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>%}
                         {% endif %}
 
                         {{ content }}
