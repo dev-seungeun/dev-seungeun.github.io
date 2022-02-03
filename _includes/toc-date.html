@@ -23,7 +23,7 @@
                     {% assign reversed_posts = site.posts | reverse %}
                     {% assign posts = site.posts %} 
 
-                    {% for post in grouped_posts %}
+                    {% for post in posts %}
                         {% if page.url == post.url %}
                         <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                         {% else %}
