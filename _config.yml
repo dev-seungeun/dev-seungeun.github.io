@@ -40,14 +40,14 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
-collections:
-  study:
+collections: 
+  book: 
     output: true
     permalink: /:collection/:path/
   movie:
     output: true
-    permalink: /:collection/:path/
-  book: 
+    permalink: /:collection/:path/ 
+  study:
     output: true
     permalink: /:collection/:path/
     
