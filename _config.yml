@@ -42,12 +42,15 @@ exclude:
 
 collections: 
   study:
+    title: Study
     output: true
     permalink: /:collection/:path/
   book: 
+    title: Book
     output: true
     permalink: /:collection/:path/
   movie:
+    title: Movie
     output: true
     permalink: /:collection/:path/  
     
