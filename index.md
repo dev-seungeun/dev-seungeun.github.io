@@ -2,7 +2,7 @@
 layout: home
 ---
  
-#### Hello I'm SeungEun! 
+#### Hello I'm SeungEun!!
 #### This is My Blog for Study :) 
  
 <!-- 
