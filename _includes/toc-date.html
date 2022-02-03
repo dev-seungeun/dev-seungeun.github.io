@@ -22,6 +22,8 @@
             
                     {% assign reversed_posts = site[collection.label] | reverse %}
                     {% assign posts = site[collection.label] %} 
+            
+            <p>{{ collection.label | escape }}</p>
 
                     {% for post in posts %}
                         {% if page.url == post.url %}
