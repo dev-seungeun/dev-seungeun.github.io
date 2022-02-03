@@ -21,9 +21,11 @@ author: SeungEun Baek
 > Github에서 아이디, 패스워드 인증을 없앰(2021.08.13) > ID/Personal Access Token 으로 인증방식이 바뀌었다
 
 <br>
+
 ### 해결방법 - 토큰생성
+
 > 1. Github 홈페이지 > 프로필 클릭 > Setting 메뉴 선택<br> 
-   <p align="left"><img src="https://user-images.githubusercontent.com/80504390/152360015-9a0a658f-eab8-4d1e-9393-1e56e5e3153e.png"></p>   
+   <p align="left"><img style="margin-left: 10px" src="https://user-images.githubusercontent.com/80504390/152360015-9a0a658f-eab8-4d1e-9393-1e56e5e3153e.png"></p>   
    
 > 2. Developer Settings 메뉴 (아래쪽에 위치함)<br>
    <p align="left"><img src="https://user-images.githubusercontent.com/80504390/152360123-52833259-9b76-471b-a391-497c10c90cc0.png"></p>
