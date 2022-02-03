@@ -12,25 +12,22 @@ author: SeungEun Baek
 4. ex) uri : https://github.com/dev-seungeun/java_projects.git
 5. branch, master 등 선택하여 clone
 6. 'Git Respository' 창에서 가져올 프로젝트 선택하여 import
+<br><br>
 
 ## 2. 갑자기 Github 연동 로그인 실패할 경우
     "can't connect to any repository(깃헙 주소):not authorized"
 
 ### 원인
-```
-Github에서 아이디, 패스워드 인증을 없앰(2021.08.13) --> ID/Personal Access Token 으로 인증방식이 바뀌었다
-```
+> Github에서 아이디, 패스워드 인증을 없앰(2021.08.13) > ID/Personal Access Token 으로 인증방식이 바뀌었다
+
+<br>
 
 ### 해결방법 - 토큰생성
- 
-1. Github 홈페이지 > 프로필 클릭 > Setting 메뉴 선택<br> 
-   <p align="left"><img src="https://user-images.githubusercontent.com/80504390/152360015-9a0a658f-eab8-4d1e-9393-1e56e5e3153e.png"></p>
-2. Developer Settings 메뉴 (아래쪽에 위치함)<br>
-   <p align="left"><img src="https://user-images.githubusercontent.com/80504390/152360123-52833259-9b76-471b-a391-497c10c90cc0.png"></p>
-3. Personal access tokens > Generate new Token<br>   
-   <p align="left"><img src="https://user-images.githubusercontent.com/80504390/152360230-5cb453fd-8598-4354-a669-5667118ff1d1.png"></p> 
-4. 발급된 토큰 복사하여 노션같은 자신의 메모장에 저장해놓기*
-5. Git Repository > [my project] > Remotes > origin > 우클릭 > Change Credentials
-6. User : Git ID Email, Password : 발급받은 Token
-7. Save!!
-8. 성공 :)
+> 1. Github 홈페이지 > 프로필 클릭 > Setting 메뉴 선택<br>
+> 2. Developer Settings 메뉴 (아래쪽에 위치함)<br>
+> 3. Personal access tokens > Generate new Token<br>   
+> 4. 발급된 토큰 복사하여 노션같은 자신의 메모장에 저장해놓기*
+> 5. Git Repository > [my project] > Remotes > origin > 우클릭 > Change Credentials
+> 6. User : Git ID Email, Password : 발급받은 Token
+> 7. Save!!
+> 8. 성공 :)
