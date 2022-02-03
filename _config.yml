@@ -41,7 +41,7 @@ exclude:
   - _drafts
 
 collections: 
-  study:
+  astudy:
     title: Study
     output: true
     permalink: /:collection/:path/
