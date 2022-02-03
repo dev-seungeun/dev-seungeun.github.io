@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-
+<br>
 ### Hello I'm SeungEun! 
 ### This is My Blog for Study :) 
  
