@@ -41,6 +41,9 @@ exclude:
   - _drafts
 
 collections:
+  study:
+    output: true
+    permalink: /:collection/:path/
   hobby:
     output: true
     permalink: /:collection/:path/
