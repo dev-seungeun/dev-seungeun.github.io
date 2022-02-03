@@ -1,3 +1,9 @@
+---
+title: Ecplise Github 연동
+author: SeungEun Baek
+date: 2022-02-03 23:04 
+---
+
 ## 1.Github상에서 생성한 Repository 연동 후, Project Commit,Push 하기
 1. git 환경 설정
     Window > Perspective > Open Perspective > Others..    <br><br>
