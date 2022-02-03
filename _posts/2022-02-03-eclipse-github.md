@@ -4,14 +4,15 @@ author: SeungEun Baek
 ---
 
 ## 1. Github상에서 생성한 Repository 연동 후, Project Commit,Push 하기
-1. Git 환경 설정
+> 1. Git 환경 설정
     Window > Perspective > Open Perspective > Others..    <br><br>
    ![image](https://user-images.githubusercontent.com/80504390/152358573-0dbc6f50-56db-4258-8158-c09aff0758b2.png)
-2. 여기서 Git 아이콘 선택 후 Open
-3. Git Repository 창에서 Clone a Git Repository 선택
-4. ex) uri : https://github.com/dev-seungeun/java_projects.git
-5. branch, master 등 선택하여 clone
-6. 'Git Respository' 창에서 가져올 프로젝트 선택하여 import
+> 2. 여기서 Git 아이콘 선택 후 Open
+> 3. Git Repository 창에서 Clone a Git Repository 선택
+> 4. ex) uri : https://github.com/dev-seungeun/java_projects.git
+> 5. branch, master 등 선택하여 clone
+> 6. 'Git Respository' 창에서 가져올 프로젝트 선택하여 import
+
 <br><br>
 
 ## 2. 갑자기 Github 연동 로그인 실패할 경우
