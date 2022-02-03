@@ -44,7 +44,7 @@ collections:
   study:
     output: true
     permalink: /:collection/:path/
-  hobby:
+  movie:
     output: true
     permalink: /:collection/:path/
   book: 
