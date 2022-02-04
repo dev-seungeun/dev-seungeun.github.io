@@ -7,7 +7,8 @@ layout: null
   {% for collection in site.collections %} {% if collection.output %} {% if collection.label != "posts" %} {% assign posts = site[collection.label] %}  {% for post in posts %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+     {{ page.date | date: "%b %-d, %Y"}}
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
