@@ -5,7 +5,8 @@ date: 2022-01-27 20:30
 category: bse
 layout: post
 ---
-      
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdev-seungeun.github.io%2F1study%2FmongoDB%2F&count_bg=%23C0BCC2&title_bg=%23000000&icon=&icon_color=%23E1D9D9&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 ## 관계형 데이터베이스(RDBMS)
 > Table과 Row, Column이 존재하고 Table간의 관계를 연결시켜서 데이터를 조회하는 형태
 ```
