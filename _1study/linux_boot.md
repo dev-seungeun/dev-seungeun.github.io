@@ -5,7 +5,8 @@ date: 2022-01-26 21:05
 category: bse
 layout: post
 ---
-   
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdev-seungeun.github.io%2F1study%2Flinux_boot%2F&count_bg=%23C0BCC2&title_bg=%23000000&icon=&icon_color=%23E1D9D9&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 ## Boot Script 등록
 ```
 1. /etc/inid.d 에 script 파일 등록
