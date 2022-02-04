@@ -1,7 +1,7 @@
 ---
 title: Eclipse Github 연동
 author: SeungEun Baek
-date: 2022-02-03 23:18 
+date: 2022-02-03T23:18:00Z 
 category: bse
 layout: post
 ---
