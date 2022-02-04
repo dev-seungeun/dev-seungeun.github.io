@@ -28,9 +28,9 @@ layout: post
 
 ### 해결방법 - 토큰생성
 
-> 1. Github 홈페이지 > 프로필 클릭 > Setting 메뉴 선택<br> 
+> 1. Github 홈페이지 > 프로필 클릭 > Setting 메뉴 선택<br>   
          <img src="https://user-images.githubusercontent.com/80504390/152360015-9a0a658f-eab8-4d1e-9393-1e56e5e3153e.png">
-> 2. Developer Settings 메뉴 (아래쪽에 위치함)<br>
+> 2. Developer Settings 메뉴 (아래쪽에 위치함)<br>   
          <img src="https://user-images.githubusercontent.com/80504390/152360123-52833259-9b76-471b-a391-497c10c90cc0.png">
 > 3. Personal access tokens > Generate new Token<br>   
          <img src="https://user-images.githubusercontent.com/80504390/152360230-5cb453fd-8598-4354-a669-5667118ff1d1.png">
