@@ -4,9 +4,14 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for collection in site.collections %}
     {% if collection.output %}
-
       {% if collection.label != "posts" %}
-
+  
+            <url>
+              <loc>https://dev-seungeun.github.io/</loc>
+              <lastmod>2022-02-04T09:33:05+00:00</lastmod>
+              <priority>1.00</priority>
+            </url>
+  
           {% assign posts = site[collection.label] %} 
           {% for post in posts %}
             <url>
