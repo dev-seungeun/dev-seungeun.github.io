@@ -2,7 +2,7 @@
 layout: home
 ---
  
-![HitCount](http://hits.dwyl.com/{unique-string}.svg)
+![HitCount](http://hits.dwyl.com/khw11044/my-project-repository.svg)
 
 #### Hello I'm SeungEun!!
 #### This is My Blog for Study :) 
