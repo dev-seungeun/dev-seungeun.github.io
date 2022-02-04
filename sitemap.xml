@@ -1,42 +1,29 @@
-<!-- sitemap.xml 만드는 사이트 : https://www.xml-sitemaps.com/ -->
-
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
 
-      <url>
-        <loc>https://dev-seungeun.github.io/</loc>
-        <lastmod>2022-02-04T09:33:05+00:00</lastmod>
-        <priority>1.00</priority>
-      </url>
-      <url>
-        <loc>https://dev-seungeun.github.io/1study/eclipse_github/</loc>
-        <lastmod>2022-02-04T09:33:05+00:00</lastmod>
-        <priority>0.80</priority>
-      </url>
-      <url>
-        <loc>https://dev-seungeun.github.io/1study/mongoDB/</loc>
-        <lastmod>2022-02-04T09:33:05+00:00</lastmod>
-        <priority>0.80</priority>
-      </url>
-      <url>
-        <loc>https://dev-seungeun.github.io/1study/linux_boot/</loc>
-        <lastmod>2022-02-04T09:33:05+00:00</lastmod>
-        <priority>0.80</priority>
-      </url>
-      <url>
-        <loc>https://dev-seungeun.github.io/2book/dollargut-dream-store/</loc>
-        <lastmod>2022-02-04T09:33:05+00:00</lastmod>
-        <priority>0.80</priority>
-      </url>
-      <url>
-        <loc>https://dev-seungeun.github.io/3movie/test/</loc>
-        <lastmod>2022-02-04T09:33:05+00:00</lastmod>
-        <priority>0.80</priority>
-      </url>
+      {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+      {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% endif %}
 
+      {% if post.sitemap.priority == null %}
+          <priority>0.5</priority>
+      {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% endif %}
+
+    </url>
+  {% endfor %}
 </urlset>
