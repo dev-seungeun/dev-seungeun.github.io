@@ -4,9 +4,6 @@ author: SeungEun Baek
 date: 2022-01-27 20:30 
 category: bse
 layout: post
-sitemap :
-  changefreq : daily
-  priority : 1.0
 ---
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdev-seungeun.github.io%2F1study%2FmongoDB%2F&count_bg=%23FEC8E6&title_bg=%23B2ADAD&icon=&icon_color=%23515050&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
