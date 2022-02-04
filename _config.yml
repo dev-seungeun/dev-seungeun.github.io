@@ -40,6 +40,8 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
+timezone: Asia/Seoul
+
 collections: 
   1study:
     title: Study
