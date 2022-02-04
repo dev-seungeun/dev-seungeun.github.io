@@ -3,7 +3,7 @@
     <head>
 
         {%- include head.html -%}
-
+<!-- 
         {% if page.previous %}
             <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
         {% else %}
@@ -13,6 +13,7 @@
         {% if page.next %}
             <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
         {% endif %}
+-->
     </head>
     <body>
         <div class="book">
@@ -21,7 +22,7 @@
 
             <div class="book-body">
                 {%- include body.html -%}
-
+<!-- 
                 {% if page.previous %}
                     <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
                         <i class="fa fa-angle-left"></i>
@@ -37,6 +38,7 @@
                         <i class="fa fa-angle-right"></i>
                     </a>
                 {% endif %}
+-->
             </div>
 
             <script>
