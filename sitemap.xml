@@ -12,7 +12,11 @@ layout: null
   
           {% for post in posts %}
             <url>
-              <loc>{{ site.baseurl }}{{ post.url }}</loc>
+              <loc>{{ site.baseurl }}</loc>
+              <loc>{{ post.url }}</loc>
+              <loc>{{ post.baseurl }}</loc>
+              <loc>{{ page.baseurl }}</loc>
+              <loc>{{ page.url }}</loc>
               <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
               <changefreq>daily</changefreq>
               <priority>0.5</priority>
