@@ -5,7 +5,8 @@ date: 2022-02-03 23:18
 category: bse
 layout: post
 ---
-
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdev-seungeun.github.io%2F1study%2Feclipse_github%2F&count_bg=%23C0BCC2&title_bg=%23000000&icon=&icon_color=%23E1D9D9&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+            
 ## 1. Github상에서 생성한 Repository 연동 후, Project Commit,Push 하기
 > 1. Git 환경 설정
     Window > Perspective > Open Perspective > Others..<br>   
