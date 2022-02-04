@@ -9,7 +9,6 @@ layout: null
       {% if collection.label != "posts" %}
 
           {% assign posts = site[collection.label] %} 
-  
           {% for post in posts %}
             <url>
               <loc>{{ site.url }}{{ post.url }}</loc>
@@ -22,6 +21,6 @@ layout: null
       {% endif %}
     {% endif %}
   {% endfor %}
+
   
-   
 </urlset>
