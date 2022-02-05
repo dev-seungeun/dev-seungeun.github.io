@@ -6,8 +6,10 @@ category: bse
 layout: post
 ---
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdev-seungeun.github.io%2F2book%2Fdollargut-dream-store%2F&count_bg=%23FEC8E6&title_bg=%23B2ADAD&icon=&icon_color=%23515050&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
- 
-<img margin-right="10px" width="250px" align="right" src="https://user-images.githubusercontent.com/80504390/152648502-8b6ef48b-a917-41cb-9398-7319b3ddd3e6.png">
+
+<br>
+<div align="center"><img width="250px" src="https://user-images.githubusercontent.com/80504390/152648502-8b6ef48b-a917-41cb-9398-7319b3ddd3e6.png"></div>
+<br>
 &nbsp;&nbsp;일단 대학생때 재밌게 들었던 심리학 교양 수업에서 꿈에 대한 글이 담긴 책을 읽었었다.   
 로저 R.호크의 '심리학을 변화시킨 40가지 연구'라는 책인데 두번째 목차인 '의식'의 내용이 거의 10년이 지난 지금까지도 기억이 난다. 정말 흥미롭게 읽었던 기억이 아주 강하게 남아있다.    
 이렇게 꿈에 대해 연구한 책을 아주 재밌게 본 기억까지 있으니 '달러구트 꿈백화점' 이라는 제목을 보고는 그냥 바로 집어들었던것 같다.   
