@@ -6,7 +6,7 @@ category: bse
 layout: post
 ---
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdev-seungeun.github.io%2F2book%2Fdollargut-dream-store%2F&count_bg=%23FEC8E6&title_bg=%23B2ADAD&icon=&icon_color=%23515050&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <div style="border-radius: 20px 20px 20px 20px; padding: 40px 30px; font-size: 10pt; font-weight: lighter; background-color: linen;">
   <img width="250px" align="left" src="https://user-images.githubusercontent.com/80504390/152648502-8b6ef48b-a917-41cb-9398-7319b3ddd3e6.png">
   <br>
