@@ -39,7 +39,7 @@ layout: post
   
   <br><br><br>
   여기 등장인물소개가 잘 되어있는 나무위키 링크 두고갑니당<br>
-  [달러구트 꿈 백화점](https://namu.wiki/w/%EB%8B%AC%EB%9F%AC%EA%B5%AC%ED%8A%B8%20%EA%BF%88%20%EB%B0%B1%ED%99%94%EC%A0%90){:target="_blank"}
+  [달러구트 꿈 백화점](https://namu.wiki/w/%EB%8B%AC%EB%9F%AC%EA%B5%AC%ED%8A%B8%20%EA%BF%88%20%EB%B0%B1%ED%99%94%EC%A0%90){: target="_blank"}
   <a href="https://namu.wiki/w/%EB%8B%AC%EB%9F%AC%EA%B5%AC%ED%8A%B8%20%EA%BF%88%20%EB%B0%B1%ED%99%94%EC%A0%90" target="_blank">달러구트 꿈 백화점</a>
   
 </div>
