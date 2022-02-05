@@ -36,7 +36,7 @@ layout: post
   &nbsp;이렇게 빨리 읽어 내려간 책은 정말 오랜만이다. 인문학 책도 좋아하고 소설책도 좋아하지만<br>
   이렇게 기발하구 귀여운 상상력이 가미된 소설책은 정말 내 최애 도서다!! 2권도 있던데 꼭 시간내서 봐야겠다 :]
   
-  <br><br>
+  <br><br><br>
   | <a href="https://namu.wiki/w/%EB%8B%AC%EB%9F%AC%EA%B5%AC%ED%8A%B8%20%EA%BF%88%20%EB%B0%B1%ED%99%94%EC%A0%90" target="_blank">달러구트 꿈 백화점</a> (인물소개 잘 되어있는 나무위키)
   
 </div>
