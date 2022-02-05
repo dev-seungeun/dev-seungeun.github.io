@@ -1,5 +1,5 @@
 ---
-title: Mongo DB가 뭘까..
+title: MongoDB가 뭘까..
 author: SeungEun Baek
 date: 2022-01-27 20:30 
 category: bse
