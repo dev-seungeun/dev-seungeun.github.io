@@ -1,5 +1,5 @@
 ---
-title: 감상 및 리뷰 - 소울 
+title: 감상 및 리뷰 - 소울(2020) 
 author: SeungEun Baek
 date: 2022-02-06 02:18
 description: 영화 소울에 대한 감상 및 리뷰입니다.
