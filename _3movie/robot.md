@@ -2,7 +2,7 @@
 title: 감상 및 리뷰 - 로봇(2005)
 author: SeungEun Baek
 date: 2022-02-06 01:23 
-description: 영화 로봇(2005)에 대한 감상 및 리뷰입니다.
+description: 영화 로봇에 대한 감상 및 리뷰입니다.
 category: bse
 layout: post
 ---
