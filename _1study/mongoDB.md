@@ -2,6 +2,7 @@
 title: MongoDB가 뭘까..
 author: SeungEun Baek
 date: 2022-01-27 20:30 
+description: noSQL과 MongoDB에 대한 짧은 정리
 category: bse
 layout: post
 ---
