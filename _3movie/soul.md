@@ -1,5 +1,5 @@
 ---
-title: 소울
+title: 소울 (감상 및 리뷰)
 author: SeungEun Baek
 date: 2022-02-06 02:18 
 category: bse
