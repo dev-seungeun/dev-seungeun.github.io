@@ -2,6 +2,7 @@
 title: 달러구트 꿈 백화점 (독서감상문)
 author: SeungEun Baek
 date: 2022-02-05 23:55
+description: 책 달러구트 꿈 백화점에 대한 독서감상문 입니다.
 category: bse
 layout: post
 ---
