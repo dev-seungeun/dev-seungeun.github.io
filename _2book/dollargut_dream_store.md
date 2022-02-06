@@ -12,7 +12,7 @@ layout: post
 
 <div style="border-radius: 20px 20px 20px 20px; padding: 30px 20px; font-size: 10pt; font-weight: lighter; background-color: linen;">
   <img height="300px" src="https://user-images.githubusercontent.com/80504390/152648502-8b6ef48b-a917-41cb-9398-7319b3ddd3e6.png"> 
-  <img height="300px" src="https://user-images.githubusercontent.com/80504390/152668370-ba31aa8a-614a-4f3d-b939-98a759477cdc.png"><br>
+  <img height="300px" src="https://user-images.githubusercontent.com/80504390/152668370-ba31aa8a-614a-4f3d-b939-98a759477cdc.png">
   <img height="200px" src="https://user-images.githubusercontent.com/80504390/152668860-18e0fded-4a29-4bf3-b6f4-30d83404ff9b.png">  
   <img height="200px" src="https://user-images.githubusercontent.com/80504390/152668863-a42678ce-eb7f-402e-8c5a-8b0d0952df18.png"> 
   <img height="200px" src="https://user-images.githubusercontent.com/80504390/152668859-f4e66e88-390b-4090-9bc5-0732cdb33b54.png"> 
