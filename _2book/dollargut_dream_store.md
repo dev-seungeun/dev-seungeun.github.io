@@ -1,5 +1,5 @@
 ---
-title: [독후감] 달러구트 꿈 백화점
+title: 달러구트 꿈 백화점 (독서감상문)
 author: SeungEun Baek
 date: 2022-02-05 23:55
 category: bse
