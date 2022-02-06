@@ -2,7 +2,7 @@
 title: 소울 (감상 및 리뷰)
 author: SeungEun Baek
 date: 2022-02-06 02:18
-description: 소울 영화에 대한 감상 및 리뷰입니다.
+description: 영화 소울에 대한 감상 및 리뷰입니다.
 category: bse
 layout: post
 ---
