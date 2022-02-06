@@ -2,6 +2,7 @@
 title: Eclipse Github 연동
 author: SeungEun Baek
 date: 2022-02-03 23:18 
+description: 이클립스 깃허브 연동하는 방법 정리
 category: bse
 layout: post
 ---
