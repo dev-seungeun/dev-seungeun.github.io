@@ -10,9 +10,10 @@ layout: post
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <div style="border-radius: 20px 20px 20px 20px; padding: 30px 20px; font-size: 10pt; font-weight: lighter; background-color: linen;">
-  <img width="200px" src="https://user-images.githubusercontent.com/80504390/152648502-8b6ef48b-a917-41cb-9398-7319b3ddd3e6.png">
-  <br><br>
-  
+  <img height="300px" src="https://user-images.githubusercontent.com/80504390/152648502-8b6ef48b-a917-41cb-9398-7319b3ddd3e6.png">  
+  <img height="300px" src="https://user-images.githubusercontent.com/80504390/152668370-ba31aa8a-614a-4f3d-b939-98a759477cdc.png"> 
+  <br><br> 
+
   &nbsp;일단 대학생때 재밌게 들었던 심리학 교양 수업에서 꿈에 대한 글이 담긴 책을 읽었었다. 로저 R.호크의 '심리학을 변화시킨 40가지 연구'라는 책인데<br>
   두번째 목차인 '의식'의 내용이 거의 10년이 지난 지금까지도 기억이 난다. 정말 흥미롭게 읽었던 기억이 아주 강하게 남아있다.<br>
   이렇게 꿈에 대해 연구한 책을 아주 재밌게 본 기억까지 있으니 '달러구트 꿈 백화점' 이라는 제목을 보고는 그냥 바로 집어들었던것 같다.<br><br>
