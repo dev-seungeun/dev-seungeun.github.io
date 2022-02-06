@@ -1,5 +1,5 @@
 ---
-title: 스틸 앨리스 
+title: 스틸 앨리스 (감상 및 리뷰) 
 author: SeungEun Baek
 date: 2022-02-06 01:23 
 category: bse
