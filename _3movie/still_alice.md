@@ -2,6 +2,7 @@
 title: 스틸 앨리스 (감상 및 리뷰) 
 author: SeungEun Baek
 date: 2022-02-06 01:23 
+description: 영화 스틸 앨리스에 대한 감상 및 리뷰입니다.
 category: bse
 layout: post
 ---
