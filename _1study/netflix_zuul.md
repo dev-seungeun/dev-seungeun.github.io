@@ -1,5 +1,5 @@
 ---
-title: API Gateway [Netflix Zuul (Spring cloud Zuul)] 적용방법
+title: Netflix Zuul (Spring cloud Zuul) 적용기
 author: SeungEun Baek
 date: 2022-02-07 16:10 
 description: MSA의 API Gateway - Netflix Zuul(Spring cloud Zuul) 적용 방법 작성
