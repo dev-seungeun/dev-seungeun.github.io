@@ -130,8 +130,9 @@ public ResponseEntity<Map<String, Object>> apiMethod1(HttpServletRequest request
 <br>   
 
 > ##### 적용된 모습 - Swagger UI
-<img src="https://user-images.githubusercontent.com/80504390/152713975-f57e02f2-a8c4-44c7-8200-2b0f7f19a3dc.png"/>
-<br><br><br>   
+<img src="https://user-images.githubusercontent.com/80504390/152713975-f57e02f2-a8c4-44c7-8200-2b0f7f19a3dc.png"/>   
+
+<br>
 
 #### Swagger-UI에 노출하지 않을 Method : 각 메서드에 @ApiIgnore 설정
 ```java
