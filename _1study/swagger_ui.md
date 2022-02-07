@@ -109,7 +109,7 @@ protected Class<?>[] getServletConfigClasses() {
     return new Class<?>[] { WebMvcConfig.class, SwaggerConfig.class };
 }
 ```
-
+ 
 ### 4. WebMvcConfig.java 수정 (아래 코드 추가)
 ```java
 @Override
