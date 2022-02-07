@@ -1,5 +1,5 @@
 ---
-title: Netflix Zuul (Spring cloud Zuul) 적용기
+title: Spring Boot - Netflix Zuul 적용
 author: SeungEun Baek
 date: 2022-02-07 16:10 
 description: MSA의 API Gateway - Netflix Zuul(Spring cloud Zuul) 적용 방법 작성
