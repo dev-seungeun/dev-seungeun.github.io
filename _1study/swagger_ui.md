@@ -174,21 +174,21 @@ public class TestController {
     <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value> 
-				classpath:/META-INF/spring/spring-servlet-context.xml 
-			</param-value>
+      	<param-value> 
+	    classpath:/META-INF/spring/spring-servlet-context.xml 
+   	</param-value>
     </init-param>
     <load-on-startup>2</load-on-startup>
-  </servlet>
-  <servlet-mapping>
-      <servlet-name>myServlet</servlet-name>
-      <url-pattern>/api/*</url-pattern>
-  </servlet-mapping>
-  <servlet>
-      <servlet-name>SwaggerConfig</servlet-name>
-      <servlet-class>com.my.package.config.SwaggerConfig</servlet-class>
-      <load-on-startup>3</load-on-startup>
-  </servlet>
+</servlet>
+<servlet-mapping>
+    <servlet-name>myServlet</servlet-name>
+    <url-pattern>/api/*</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>SwaggerConfig</servlet-name>
+    <servlet-class>com.my.package.config.SwaggerConfig</servlet-class>
+    <load-on-startup>3</load-on-startup>
+</servlet>
 ```
 
 ### 3. SwaggerConfig.java 파일 생성
