@@ -119,7 +119,9 @@ public void addResourceHandlers(ResourceHandlerRegistry registry) {
 }
 ```
 
-### 5. Swagger Annotation 설정   
+### 5. Swagger Annotation 설정
+
+#### API 정보 설정
 ```java
 @ApiOperation(value = "", notes = "API1 정보 조회", httpMethod = "GET")
 @ApiImplicitParams({@ApiImplicitParam(name="CODE", value="코드 / ex) code1", paramType="path", required=true),
