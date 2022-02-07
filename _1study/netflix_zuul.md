@@ -122,7 +122,7 @@ public class GatewayApplication {
 ```
 <br>
 
-## ETC
+## 4. ETC
 
 내가 적용한 Gateway를 예를 들자면 
 PreFilter에서 Request Url을 체크하고 Auth-Token의 유효성을 체크한다. 그리고 Request시작시간을 RequestContext에 저장한다.
