@@ -126,8 +126,7 @@ public void addResourceHandlers(ResourceHandlerRegistry registry) {
                     @ApiImplicitParam(name="NAME", value="이름 / ex) Karen", paramType="query", required=true)})
 @RequestMapping(value = "/api/code/{CODE}/info", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 public ResponseEntity<Map<String, Object>> apiMethod1(HttpServletRequest request);
-```
-<br>   
+``` 
 
 > ##### 적용된 모습 - Swagger UI
 <img src="https://user-images.githubusercontent.com/80504390/152713975-f57e02f2-a8c4-44c7-8200-2b0f7f19a3dc.png"/>   
