@@ -1,8 +1,8 @@
 ---
-title: Spring Framework Swagger 적용
+title: API Gateway [Netflix Zuul (Spring cloud Zuul)] 적용방법
 author: SeungEun Baek
-date: 2022-02-07 11:18 
-description: Spring MVC Swagger 적용 방법 작성
+date: 2022-02-07 16:10 
+description: MSA의 API Gateway - Netflix Zuul(Spring cloud Zuul) 적용 방법 작성
 category: bse
 layout: post
 ---
@@ -126,7 +126,192 @@ public class GatewayApplication {
 
 내가 적용한 Gateway를 예를 들자면 
 PreFilter에서 Request Url을 체크하고 Auth-Token의 유효성을 체크한다. 그리고 Request시작시간을 RequestContext에 저장한다.
-PostFilter에서는 PreFilter에서 저장한 Request시작시간을 사용하여 응답시간을 계산하여 로그로 적재하고 있다.)   
+PostFilter에서는 PreFilter에서 저장한 Request시작시간을 사용하여 응답시간을 계산하여 로그로 적재하고 있다.)  
+
+#### PreFilter.java
+```java
+public class PreFilter extends ZuulFilter {
+	
+    private static final Logger logger = LoggerFactory.getLogger(PreFilter.class);
+    
+    @Override
+    public String filterType() {
+        return "pre";
+    }
+
+    @Override
+    public int filterOrder() {
+        return 1;
+    }
+	
+    @Override
+    public boolean shouldFilter() {
+        return true;
+    }
+    
+    @Override
+    public Object run() {
+        final RequestContext requestContext = RequestContext.getCurrentContext();
+        long procStart	= System.nanoTime();
+        
+        try {
+            requestContext.set("proc_start_time", procStart);
+            
+            ...
+            
+        } finally {
+            logger.debug("Request Method - {}", request.getMethod());
+            logger.debug("Request URL - {}", request.getRequestURL().toString());
+        }
+         
+        return null;
+    } 
+}
+```
+
+#### PostFilter.java
+```java
+public class PostFilter extends ZuulFilter {
+	
+    private static final Logger logger = LoggerFactory.getLogger(PostFilter.class);
+
+    @Override
+    public String filterType() {
+        return "post";
+    }
+
+    @Override
+    public int filterOrder() {
+        return 1;
+    }
+
+    @Override
+    public boolean shouldFilter() {
+        return true;
+    }
+    
+    @Override
+    public Object run() {
+        final RequestContext requestContext = RequestContext.getCurrentContext();
+        try {
+        } catch (Exception ex) {
+            logger.error("##### Exception Filtering", ex.toString());
+            requestContext.setResponseStatusCode(HttpStatus.INTERNAL_SERVER_ERROR.value());
+        } finally {
+            Object procStart = requestContext.get("proc_start_time");
+            if(isNotEmpty(procStart)) {
+                String respTime	= respTime((Long)procStart); 
+                logger.info("##### resp_time : {}", procTime + " ms");
+            }
+        } 
+        return null;
+    }
+	    
+    private static String respTime(long procStart) {
+        String respTime	= null;
+        long respTimeNano = (System.nanoTime() - procStart);
+        long respTimeMSec = respTimeNano / 1000000;
+        respTime = String.valueOf(respTimeMSec);
+        return respTime;
+    }
+
+    private static boolean isNotEmpty(Object obj) {
+        boolean result = false;
+        if (obj != null) {
+            result = true;
+            if ((obj instanceof String) && "".equals(obj))
+                result = false;
+        }
+        return result;
+    }
+}
+```
+
+#### application.yaml
+```yaml
+spring:
+  application:
+    name: gateway-test
+  profiles:
+    active: default
+    
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include:
+          "*"
+      unique-names: true
+    web:
+      exposure:
+        include:
+          "*"
+
+ribbon:
+  eureka:
+    enabled: false
+    
+server:
+  tomcat:
+    accesslog: 
+      directory: /server/logs/gateway-test
+      prefix: gateway-test_access_log
+      suffix: .txt
+
+# 운영 설정
+---
+spring:
+  profiles: prod
+server:
+  port: 8081
+  tomcat:    
+    accesslog:
+      enabled: true
+#  tomcat:
+#    max-connections: 300
+#    max-threads: 300
+logging:
+  level:
+    root: info
+---
+# 검증 설정
+spring:
+  profiles: local
+server:
+  port: 8081
+  tomcat:
+    accesslog:
+      enabled: true
+#logging:
+#  level:
+#    root: debug
+```
+
+#### application-prod.yaml
+```yaml
+#prod
+---
+
+spring:
+  profiles: prod
+  
+zuul: 
+  ribbon-isolation-strategy: thread
+  host:
+    connect-timeout-millis: 10000
+    socket-timeout-millis: 10000
+    max-total-connections: 2000
+    max-per-route-connections: 200
+    time-unit: MILLISECONDS
+    time-to-live: 10000  
+  routes: 
+    service1:
+      id: Service1
+      path: /service1-api/**
+      stripPrefix: false #(true : path의 prefix제외하고 url전달,  false : path의 prefix 포함하여 url 전달)
+      url: http://internal-url:port
+```
+
 <br><br>
 <hr>
 
