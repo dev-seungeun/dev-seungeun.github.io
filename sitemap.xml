@@ -12,7 +12,7 @@ layout: null
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
     <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   {% endfor %} {% endif %} {% endif %} {% endfor %}
