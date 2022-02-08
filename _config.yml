@@ -1,46 +1,24 @@
 # Configurations
-title:            SeungEun's Blog
+title:            dev-seungeun.github.io
 longtitle:        since 2022.01
 author:           SeungEun Baek
 email:            dev-seungeun@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  rite an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
 version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://dev-seungeun.github.io'
 baseurl:          ''
-rss:              RSS
+github_username:  dev-seungeun
 
-toc:
-  enabled: true
-  h_min: 1
-  h_max: 3
-
-# markdown render engine.
-markdown:         kramdown
-kramdown:
-  auto_ids:               true
-  input:                  GFM
-  math_engine:            mathjax
-  smart_quotes:           lsquo,rsquo,ldquo,rdquo
-  toc_levels:             1..6
-  syntax_highlighter:     rouge
-  syntax_highlighter_opts:
-    guess_lang:           true
-
-syntax_highlighter_style: colorful
-
-markdown_ext:     markdown,mkdown,mkdn,mkd,md
-
-# Permalinks
-permalink:        /:categories/:year-:month-:day-:title:output_ext
-
-exclude:
-  - _drafts
-
-timezone: Asia/Seoul
+theme: minima
+plugins:
+  - jekyll-feed
+  - jemoji
 
 collections: 
   1study:
@@ -56,13 +34,42 @@ collections:
     output: true
     permalink: /:collection/:path/  
     
-destination:      ./_site
-incremental:      false
-regenerate:       true
-
-plugins:
-  - jekyll-feed
-  - jemoji
-  
 # Analytics
 google_analytics: G-8H1FFPVKE6
+
+timezone: Asia/Seoul
+
+
+
+# rss:              RSS
+
+# toc:
+#   enabled: true
+#   h_min: 1
+#   h_max: 3
+
+# # markdown render engine.
+# markdown:         kramdown
+# kramdown:
+#   auto_ids:               true
+#   input:                  GFM
+#   math_engine:            mathjax
+#   smart_quotes:           lsquo,rsquo,ldquo,rdquo
+#   toc_levels:             1..6
+#   syntax_highlighter:     rouge
+#   syntax_highlighter_opts:
+#     guess_lang:           true
+
+# syntax_highlighter_style: colorful
+
+# markdown_ext:     markdown,mkdown,mkdn,mkd,md
+
+# # Permalinks
+# permalink:        /:categories/:year-:month-:day-:title:output_ext
+
+# exclude:
+#   - _drafts
+
+# destination:      ./_site
+# incremental:      false
+# regenerate:       true
