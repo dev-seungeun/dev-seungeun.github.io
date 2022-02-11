@@ -36,9 +36,9 @@ SEO(Search Engine Optimization)관련 용어중 하나인 서치 콘솔.
 
 <br><br>
 우선, 아래화면처럼 시작하기 누르고 도메인 제출 후 차근차근히 진행하면 콘솔 시작 화면을 만날 수 있다.   
-<br><br>
-![image](https://user-images.githubusercontent.com/80504390/153554327-292f35fc-b393-4a0e-a41b-49f1e956eab3.png)
-<img style="width:600px" src="https://user-images.githubusercontent.com/80504390/153551882-db5fe834-167b-4c29-9b12-1ac2ee245c29.png" /> 
+<br><br> 
+<img style="float:left; width:800px" src="https://user-images.githubusercontent.com/80504390/153554327-292f35fc-b393-4a0e-a41b-49f1e956eab3.png" /> 
+<img style="width:500px" src="https://user-images.githubusercontent.com/80504390/153551882-db5fe834-167b-4c29-9b12-1ac2ee245c29.png" /> 
 
 <br><br>   
 
