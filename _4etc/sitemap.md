@@ -37,8 +37,9 @@ SEO(Search Engine Optimization)관련 용어중 하나인 서치 콘솔.
 <br><br>
 우선, 아래화면처럼 시작하기 누르고 도메인 제출 후 차근차근히 진행하면 콘솔 시작 화면을 만날 수 있다.   
 <br><br> 
-<img style="float:left; width:800px" src="https://user-images.githubusercontent.com/80504390/153554327-292f35fc-b393-4a0e-a41b-49f1e956eab3.png" /> 
+<img style="width:800px" src="https://user-images.githubusercontent.com/80504390/153554327-292f35fc-b393-4a0e-a41b-49f1e956eab3.png" /> 
 <img style="width:500px" src="https://user-images.githubusercontent.com/80504390/153551882-db5fe834-167b-4c29-9b12-1ac2ee245c29.png" /> 
+
 
 <br><br>   
 
@@ -47,18 +48,18 @@ SEO(Search Engine Optimization)관련 용어중 하나인 서치 콘솔.
 
 Google Search Console 의 왼쪽 메뉴에서 sitemap.xml을 등록하는데 자꾸오류가 떨어졌다..<br>
 
-![image](https://user-images.githubusercontent.com/80504390/153552031-f9b09d20-bb86-4a0c-89e5-53e580f1cc40.png)<br><br>   
+<img style="width:800px" src="https://user-images.githubusercontent.com/80504390/153552031-f9b09d20-bb86-4a0c-89e5-53e580f1cc40.png" /><br><br>   
 
 오류 상세내용을 보니 url 태그 누락이라고 하는데 누락되지 않았는데..ㅜㅜ<br>
 
-![image](https://user-images.githubusercontent.com/80504390/153552080-d8a2c28e-4d90-4b73-b993-7b7a1b1101db.png)<br><br> 
+<img style="width:800px" src="https://user-images.githubusercontent.com/80504390/153552080-d8a2c28e-4d90-4b73-b993-7b7a1b1101db.png" /><br><br>    
 
 이렇게 내 사이트맵은 정상적으로 필수태그를 모두 가지고있다!!<br>
 
-![image](https://user-images.githubusercontent.com/80504390/153552148-478ac8c5-f88c-47e2-9e5a-3d820b66bf5f.png)
-<br><br>
+<img style="width:800px" src="https://user-images.githubusercontent.com/80504390/153552148-478ac8c5-f88c-47e2-9e5a-3d820b66bf5f.png" />
+<br><br>    
 
-몇날검색해보고 많은사람들의 솔루션을 적용해 봐도 되지않았다..  
+몇날며칠 검색해보고 많은사람들의 솔루션을 적용해 봐도 되지않았다..  
 어떤사람들은 2~3일 지나면 성공으로 바뀌어있었다고 해서 기다려도 봤지만 난 며칠을 기다려봐도 적용이 안된다!   
 구글에 문의글도 남겼는데 별 도움되는 답변은 듣지 못했다.
  
@@ -78,7 +79,7 @@ sitemap을 통째로 등록 할 수 없다면 내 포스팅 url을 하나하나 
 3. 검색창에 내 포스팅 url을 하나하나 넣고 엔터 치면 분석하는 작업이 진행 되고(로딩표시) 완료 되면    
 4. 아래 화면처럼 Url 검사 결과페이지가 뜬다. 여기서 노란색 표시해둔 '색인 생성 요청'을 선택하면<br>
 
-![image](https://user-images.githubusercontent.com/80504390/153553296-70f18c10-039e-42f8-9744-4c8bfcb0e144.png)<br><br>   
+<img style="width:800px" src="https://user-images.githubusercontent.com/80504390/153553296-70f18c10-039e-42f8-9744-4c8bfcb0e144.png" /><br><br>  
 
 5. 이렇게 검사가 또 진행되구 완료되면!<br>
 
