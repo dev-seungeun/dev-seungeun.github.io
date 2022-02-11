@@ -33,6 +33,10 @@ collections:
     title: Movie
     output: true
     permalink: /:collection/:path/  
+  4etc:
+    title: Etc
+    output: true
+    permalink: /:collection/:path/ 
     
 # Analytics
 google_analytics: G-8H1FFPVKE6
