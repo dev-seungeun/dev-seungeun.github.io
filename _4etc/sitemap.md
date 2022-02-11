@@ -39,11 +39,13 @@ SEO(Search Engine Optimization)관련 용어중 하나인 서치 콘솔.
 <br><br>
 ![image](https://user-images.githubusercontent.com/80504390/153554327-292f35fc-b393-4a0e-a41b-49f1e956eab3.png)
 <img style="float:left; width:600px" src="https://user-images.githubusercontent.com/80504390/153551882-db5fe834-167b-4c29-9b12-1ac2ee245c29.png" /> 
- 
-<br><br>
+
+
+<br><br>   
+
 
 ## Sitemap 등록 오류!
-<br>
+<br>   
 
 Google Search Console 의 왼쪽 메뉴에서 sitemap.xml을 등록하는데 자꾸오류가 떨어졌다..<br>
 
