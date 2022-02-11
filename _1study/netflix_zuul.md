@@ -33,7 +33,7 @@ MSA에서 언급되는 컴포넌트 중 하나이다.
 ```
 <br>
 
-## 2. Netflix Zuul 
+## 2. Netflix Zuul (2.0.x의 스프링부트까지 지원)
 
 ### Zuul 정의
 #### Netflix WIKI 발췌 - [Netflix WIKI](https://github.com/Netflix/zuul/wiki)
