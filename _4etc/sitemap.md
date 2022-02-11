@@ -9,7 +9,7 @@ layout: post
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdev-seungeun.github.io%2F4etc%2Fsitemap%2F&count_bg=%23FEC8E6&title_bg=%23B2ADAD&icon=&icon_color=%23515050&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <br> 
- <div style="font-size:15pt; color:orange"><b>포스팅 이유</b></div> 
+ <div style="font-size:15pt; color:orange; margin-bottom:12px"><b>포스팅 이유</b></div> 
  <div style="font-size:12pt; color:black">
   <b>
    &nbsp;&nbsp;&nbsp; 내 깃블로그를 구글 검색에 노출시키고 싶어서<br>
