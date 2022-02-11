@@ -8,12 +8,12 @@ layout: post
 ---
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdev-seungeun.github.io%2F4etc%2Fsitemap%2F&count_bg=%23FEC8E6&title_bg=%23B2ADAD&icon=&icon_color=%23515050&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<br>   
-
-```
-포스팅 이유 : 내 깃블로그를 구글 검색에 노출시키고 싶어서    
-Google Search Console에 내 사이트를 등록하려 하니 sitemap.xml 등록이 잘 되지않았다..
-```
+<div style="font-size:30pt; color:orange">
+ <b>
+  포스팅 이유 : 내 깃블로그를 구글 검색에 노출시키고 싶어서<br>
+  Google Search Console에 내 사이트를 등록하려 하니 sitemap.xml 등록이 잘 되지않았다..
+ </b>
+</div
 
 <br>   
 
