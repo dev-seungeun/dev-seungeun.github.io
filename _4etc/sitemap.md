@@ -11,8 +11,11 @@ layout: post
 <br>
 <div style="font-size:15pt; color:orange">
  <b>
-  포스팅 이유 : 내 깃블로그를 구글 검색에 노출시키고 싶어서<br>
-  Google Search Console에 내 사이트를 등록하려 하니 sitemap.xml 등록이 잘 되지않았다..
+  포스팅 이유<br>
+  <div style="font-size:12pt;">
+   내 깃블로그를 구글 검색에 노출시키고 싶어서<br>
+   Google Search Console에 내 사이트를 등록하려 하니 sitemap.xml 등록이 잘 되지않았다..
+  </div>
  </b>
 </div>
 
