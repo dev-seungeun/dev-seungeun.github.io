@@ -44,7 +44,6 @@ SEO(Search Engine Optimization)관련 용어중 하나인 서치 콘솔.
 <br><br>   
 
 ## Sitemap 등록 오류!
-<br>   
 
 Google Search Console 의 왼쪽 메뉴에서 sitemap.xml을 등록하는데 자꾸오류가 떨어졌다..<br>
 
@@ -66,8 +65,6 @@ Google Search Console 의 왼쪽 메뉴에서 sitemap.xml을 등록하는데 자
 <br><br>
 
 ## 해결 방법 (우회방법?)
-<br>
-
 ```
 sitemap을 통째로 등록 할 수 없다면 내 포스팅 url을 하나하나 등록해주기로 결정!!   
 조금 번거롭지만 뭐 매일매일 글 쓰는것두 아니구   
