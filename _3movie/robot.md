@@ -11,7 +11,7 @@ layout: post
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <div style="border-radius: 20px 20px 20px 20px; padding: 30px 20px; font-size: 10pt; font-weight: lighter; background-color: linen;">
-  <img width="200px" src="https://user-images.githubusercontent.com/80504390/152669530-cdfb62bc-39a7-414b-a1e7-6be5be93fcdf.png">
+  <img width="200px" alt="robot" src="https://user-images.githubusercontent.com/80504390/152669530-cdfb62bc-39a7-414b-a1e7-6be5be93fcdf.png">
 
   <br><br>
   중간중간 재밌는 요소들 개그들이 있어서 재밌게 봤다!<br>
