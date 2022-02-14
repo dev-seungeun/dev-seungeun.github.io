@@ -11,7 +11,7 @@ layout: post
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <div style="border-radius: 20px 20px 20px 20px; padding: 30px 20px; font-size: 10pt; font-weight: lighter; background-color: linen;">
-  <img width="200px" src="https://user-images.githubusercontent.com/80504390/152651918-a8aa6d61-4ef8-4e1a-8f67-8771ea8ec177.png">
+  <img width="200px" alt="soul" src="https://user-images.githubusercontent.com/80504390/152651918-a8aa6d61-4ef8-4e1a-8f67-8771ea8ec177.png">
   <br><br>
   &nbsp;내가 뭘 잘하는지? 내 특기와 취미가 뭔지? 나는 뭘까.. 라고 생각하던 때에 보게 되어서 더 느끼는게 많았던 영화 소울이다.<br>
   나 혼자 울컥해서 영화관에서 울었는데 아무도 훌쩍이는 사람이 없어 소리죽여 눈물..ㅜㅜ<br><br>   
