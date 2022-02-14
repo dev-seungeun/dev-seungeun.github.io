@@ -57,7 +57,7 @@ PostFilter     – 라우팅 후에 실행되는 필터이다. response에 HTTP 
 ErrorFilter    – 에러 발생시 실행되는 필터이다.
 CustomFilter   - PreFilter에서 호출하여 사용할 수 있다.
 ```
-![image](https://user-images.githubusercontent.com/80504390/152724574-12175930-59e3-4e05-a096-63d6070bb773.png)   
+<img style="width:700px" alt="zuul" src="https://user-images.githubusercontent.com/80504390/152724574-12175930-59e3-4e05-a096-63d6070bb773.png"> 
 출처 - https://netflixtechblog.com/announcing-zuul-edge-service-in-the-cloud-ab3af5be08ee
 <br><br>
 
