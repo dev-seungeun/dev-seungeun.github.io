@@ -11,7 +11,7 @@ layout: post
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <div style="border-radius: 20px 20px 20px 20px; padding: 30px 20px; font-size: 10pt; font-weight: lighter; background-color: linen;">
-  <img width="200px" src="https://user-images.githubusercontent.com/80504390/152649733-841c4857-a641-447e-a0ce-770f0203b2bc.png">
+  <img width="200px" alt="still alice" src="https://user-images.githubusercontent.com/80504390/152649733-841c4857-a641-447e-a0ce-770f0203b2bc.png">
   <br><br>
   &nbsp;치매로 모든 기억을 잊은 앨리스를 온전한 앨리스로 봐야 하는가? 라는 토론주제를 가지고 봤던 영화이다.<br>
   이 주제를 생각하며 영화를 봐서그런지 생각이 많아지는 영화였다. 살면서 계속 생각해봐도 결론이 나지않는 심오한 주제인거같다.<br><br>   
